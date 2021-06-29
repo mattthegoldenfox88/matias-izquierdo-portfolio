@@ -11,21 +11,22 @@ nav{
     grid-template-columns: 50% 50%;
 }
 header{
-    background-color: rgb(54, 136, 230);
+    background-color: white;
     padding: 10px;
+    box-shadow: 0px 10px 10px -6px black;
 }
-.imagenNombre{
+/* .imagenNombre{
     display: grid;
     grid-template-columns: 20% 80%;
-}
+} */
 h1{
-    color: white;
+    color: salmon;
     display: flex;
     align-items: center;
 }
 .imagen1{
-    width: 120px;
-    height: 100px;
+    width: 80px;
+    height: 60px;
 }
 
 .menuLista{
@@ -34,9 +35,29 @@ h1{
     align-items: center;
     height: 100%;
     justify-content: space-around;
-    color: white;
+    color: salmon;
+    font-size: 16px;
 }
 
 .menuLista li  a{
-    color: white;
+    color: salmon;
+    text-decoration: none;
+}
+.introduccion{
+    text-align: center;
+    justify-content: center;
+    margin: 5% 0 0 0;
+}
+.titulo1{
+    margin: 2% 0 0 3vw;
+    color: salmon;
+}
+.parrafo1{
+    width: 50%;
+    margin: 2% 25vw 0 25vw;
+    color: rgb(78, 71, 70);
+}
+.imagenTitulo{ 
+    display: flex;
+    justify-content: center;
 }
